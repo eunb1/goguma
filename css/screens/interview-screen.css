@@ -1,0 +1,48 @@
+.interview-header {
+    display: flex;
+    align-items: center;
+    height: 12.149vh;
+    font-weight: 700;
+    font-size: 1.8072vh;
+    padding-left: 7vw;
+}
+
+.interview-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-top: var(--border);
+}
+
+.interview-section-wrapper {
+    width: 63.0556vw;
+}
+
+.interview-text {
+    font-size: 1.6064vh;
+    line-height: 162%;
+    margin-top: 5vh;
+    margin-bottom: 12.0482vh;
+}
+
+.interview-text h4,
+.interview-text b {
+    font-weight: 700;
+}
+
+.interview-text--image-margin {
+    margin-top: 3.6144vh; 
+}
+
+.star-screen {
+    position: relative;
+    overflow: hidden;
+}
+
+.star-deco {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    z-index: -1;
+}

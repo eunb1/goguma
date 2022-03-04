@@ -1,0 +1,57 @@
+.tumblbug-header {
+    display: flex;
+    align-items: center;
+    height: 6.1245vh;
+    font-weight: 800;
+    font-size: 1.8072vh;
+    padding-left: 27.5%;
+}
+
+.tumblbug-header a {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.book-intro {
+    width: 100%;
+    border-top: var(--border);
+    border-bottom: var(--border);
+    position: relative;
+}
+
+.book-intro-wrapper {
+    margin: 5.7229vh 7.5vw;
+}
+
+.book-intro__title {
+    font-weight: 800;
+    font-size: 1.8072vh;
+    margin-bottom: 3.012vh;
+}
+
+.book-intro__content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 63.0556vw;
+}
+
+.book-intro__content {
+    font-size: 1.4056vh;
+    line-height: 150%;
+}
+
+.book-intro__content b {
+    font-weight: 700;
+}
+
+.book-intro__image {
+    height: 20.4819vh;
+    position: absolute;
+    right: 6.5972vw;
+    bottom: 1.6064vh;
+}
+
+.book-cont {
+    width: 75.9722vw;
+}
