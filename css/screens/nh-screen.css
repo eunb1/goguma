@@ -54,4 +54,29 @@
 
 .book-cont {
     width: 75.9722vw;
+    padding-left: 10vw;
+}
+
+.sticker-cont {
+    width: 70.8333vw;
+}
+
+.nh-postcards {
+    width: 75.9722vw;
+    padding-left: 10vw;
+}
+
+.nh-cup {
+    width: 30vw;
+}
+
+@media screen and (max-width: 620px) {
+    .tumblbug-header {
+        height: 9vh;
+    }
+
+    .tumblbug-header span {
+        display: block;
+        margin-top: 0.8vh;
+    }
 }

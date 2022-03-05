@@ -36,3 +36,19 @@
 .footer--space {
     height: 15vh;
 }
+
+.side-bar li:hover,
+.shop-side-bar li:hover {
+    cursor: pointer;
+}
+
+.nav-bar li a {
+    padding: 20px;
+}
+
+@media screen and (max-width: 620px) {
+    
+    .display-message {
+        height: 9vh;
+    }
+}

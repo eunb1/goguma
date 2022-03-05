@@ -1,27 +1,25 @@
-/* 모바일용 CSS */
+/* PC용 CSS */
 .team-screen {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     border-bottom: 2px solid var(--purple);
-    padding-top: 10vh;
+    height: 65vh;
 }
 
 .team-description {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    width: 57.1528vw;
+    margin-right: 7.1528vw;
 }
 
 .team-description-wrapper {
-    width: 70%;
+    width: 80%;
 }
 
 .team-description__title {
     font-weight: 800;
-    font-size: 4vw;
+    font-size: 2.2222vw;
     margin-bottom: 2.008vh;
 }
 
@@ -42,8 +40,8 @@
 .team-description__btn {
     border: none;
     cursor: pointer;
-    width: 35vw;
-    height: 5vh;
+    width: 24.3750vw;
+    height: 5.5221vh;
     font-weight: 800;
     font-size: 1.25vw;
     color: var(--white);
@@ -51,72 +49,88 @@
     border-radius: 4px;
 }
 
+.team-image {
+    width: 42.8472vw;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
 .team-image img {
     display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .footer {
-    margin-top: 3.012vh;
-    margin-left: 5.5556vw;
-    height: 10vh;
+margin-top: 3.012vh;
+margin-left: 5.5556vw;
+}
+
+.footer span {
+    font-size: 1.1111vw;
+    color: black;
 }
 
 .footer span:first-child {
 font-weight: 700;
-font-size: 1.1111vw;
-color: black;
 margin-right: 7.6389vw;
 }
 
 .footer span:nth-child(2) {
 font-family: 'Montserrat', sans-serif;
 font-weight: 600;
-font-size: 1.1111vw;
-color: black;
 }
 
-/* PC용 CSS */
-@media screen and (min-width: 620px) {
+.footer {
+    height: 10vh;
+}
+
+/* 모바일용 CSS */
+@media screen and (max-width: 620px) {
     .team-screen {
-        padding: 0;
-        flex-direction: row;
-        height: 65vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 12vh;
+        height: 100vh;
     }
 
     .team-description {
-        width: 57.1528vw;
-        margin-right: 7.1528vw;
-        text-align: left;
-    }
-
-    .team-description-wrapper {
-        width: 80%;
-    }
-
-    .team-image {
-        width: 42.8472vw;
-        height: 100%;
-        position: relative;
-        overflow: hidden;
-    }
-
-    .team-image img {
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+        width: 90%;
+        text-align: center;
+        margin: 0;
     }
 
     .team-description__title {
-        font-size: 2.2222vw;
+        font-size: 6vw;
     }
 
+    .team-description__subtitle {
+        font-size: 3.3vw;
+    }
+    
+    .team-description__text {
+        font-size: 2.5vw;
+        line-height: 200%;
+    }
+    
     .team-description__btn {
-        width: 24.3750vw;
-        height: 5.5221vh;
+        width: 50vw;
+        height: 10vw;
+        font-size: 2.8vw;
+    }
+
+    .team-image {
+        width: 100%;
+        margin-top: 4.0161vh;
+    }
+
+    .footer span {
+        font-size: 2.3vw;
     }
 }

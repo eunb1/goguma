@@ -39,12 +39,15 @@
 
 .market-signature {
     width: 81.4583vw;
+    margin-bottom: 11.5462vh;
 }
 
 .insta-capture {
     width: 77.5vw;
+    margin-bottom: 5.1205vh;
 }
 
 .goguma-contents {
+    margin-top: 5.1205vh;
     width: 88.8194vw;
 }

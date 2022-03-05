@@ -9,7 +9,7 @@
     <meta property="og:title" content="내일의 농활대">
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://tmrwithfarmers.netlify.app">
-    <meta property="og:image" content="http:/tmrwithfarmers.netlify.app/images/goguma_pattern.png">
+    <meta property="og:image" content="http:/tmrwithfarmers.netlify.app/images/goguma_og.png">
     <meta property="og:description" content="농촌의 이야기를 담아, 내일의 농활대">
     <meta property="og:site_name" content="내일의 농활대">
     <meta property="og:locale" content="ko_KR">
@@ -28,7 +28,7 @@
             <li><a href="shop-sticker.html">Shop</a></li>
         </ul>
         <div class="nav-bar__column nav-bar__icons">
-            <a href="https://www.instagram.com/tmr_with_farmers" target="_blank"><img src="images/insta.png" alt="instagram"></a>
+            <a href="https://www.instagram.com/tmr_with_farmers" target="_blank"><img src="images/insta.svg" alt="instagram"></a>
             <i class="fa-solid fa-bars"></i>
         </div>
     </nav>
@@ -38,9 +38,9 @@
     <div class="intro-section">
         <aside class="side-bar">
             <ul class="side-bar__menu">
-                <li><a href="project-1.html">산들시장</a></li>
-                <li class="clicked"><a href="#">어쩌다 농활</a></li>
-                <li><a href="project-3.html">인터뷰</a></li>
+                <li onclick="location.href='project-1.html'"><a>산들시장</a></li>
+                <li onclick="location.href='#'" class="clicked"><a>어쩌다 농활</a></li>
+                <li onclick="location.href='project-3.html'"><a>인터뷰</a></li>
             </ul>
         </aside>
     
@@ -58,9 +58,11 @@
     </div>
 
     <div class="tumblbug-header">
-        <a href="https://tumblbug.com/somehownonghwal?ref=%EA%B2%80%EC%83%89%2F%ED%82%A4%EC%9B%8C%EB%93%9C" target='_blank'>
-            어쩌다, 농활 - 클라우드 펀딩
-        </a>&nbsp;텀블벅 사이트 바로가기
+        <div class="header-wrapper">
+            <a href="https://tumblbug.com/somehownonghwal?ref=%EA%B2%80%EC%83%89%2F%ED%82%A4%EC%9B%8C%EB%93%9C" target='_blank'>
+                어쩌다, 농활 - 클라우드 펀딩
+            </a>&nbsp;<span>텀블벅 사이트 바로가기</span>
+        </div>
     </div>
 
     <main class="project-screen">
@@ -125,6 +127,8 @@
         </div>
         <div class="sticker-cont image-container">
             <img src="images/p2-10.png" alt="sticker">
+        </div>
+        <div class="image-container">
             <img src="images/sticker_composition.gif" alt="sticker">
         </div>
 
@@ -132,7 +136,7 @@
         <div class="display-message text-container">
             <span>굿즈 03. 엽서</span>
         </div>
-        <div class="postcards image-container">
+        <div class="nh-postcards image-container">
             <img src="images/postcards.png" alt="postcards">
         </div>
 
@@ -140,7 +144,7 @@
         <div class="display-message text-container">
             <span>굿즈 04. 컵</span>
         </div>
-        <div class="cup image-container">
+        <div class="nh-cup image-container">
             <img src="images/cup.png" alt="cup">
         </div>
     </main>

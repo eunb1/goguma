@@ -54,3 +54,7 @@ a, ul, li {
 *:focus {
     outline: 0;
 }
+
+* {
+	-webkit-tap-highlight-color: transparent;
+}

@@ -7,6 +7,11 @@
     padding-left: 7vw;
 }
 
+.interview-header span {
+    width: 80%;
+    line-height: 150%;
+}
+
 .interview-section {
     display: flex;
     justify-content: center;
@@ -34,15 +39,18 @@
     margin-top: 3.6144vh; 
 }
 
-.star-screen {
-    position: relative;
-    overflow: hidden;
+.interview-screen--bg {
+    background-image: url("/images/stars.png");
+    background-size: 100%;
+    background-repeat: round;
 }
 
-.star-deco {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100vw;
-    z-index: -1;
+@media screen and (max-width: 620px) {
+    .interview-section-wrapper {
+        width: 78vw;
+    }
+
+    .interview-text {
+        line-height: 200%;
+    }
 }

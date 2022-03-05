@@ -77,3 +77,14 @@
     /* font-size: 0.9722vw; */
     line-height: 186%;
 }
+
+@media screen and (max-width: 620px) {
+    .display-header {
+        height: 7vh;
+    }
+
+    .display-header__text {
+        width: 80%;
+        line-height: 115%;
+    }
+}
