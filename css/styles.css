@@ -20,6 +20,8 @@
   --white: #F4F1E7;
   --green: #458075;
   --border: 2px solid var(--purple);
+  --sec: 1000ms;
+  --opacity: 0;
 }
 
 body {
@@ -27,28 +29,28 @@ body {
   background-color: var(--white);
   font-family: 'Nanum Gothic', sans-serif;
   height: 100vh;
-  animation: fadein 2000ms ease-out;
-  -moz-animation: fadein 2000ms ease-out; /* Firefox */
-  -webkit-animation: fadein 2000ms ease-out; /* Safari and  Chrome */
-  -o-animation: fadein 2000ms ease-out; /* Opera */
+  animation: fadein var(--sec) ease-out;
+  -moz-animation: fadein var(--sec) ease-out; /* Firefox */
+  -webkit-animation: fadein var(--sec) ease-out; /* Safari and  Chrome */
+  -o-animation: fadein var(--sec) ease-out; /* Opera */
 }
 
 @keyframes fadein {
-  from {opacity: 0.8;}
+  from {opacity: var(--opacity);}
   to {opacity: 1;}
 }
 
 @-moz-keyframes fadein { /* Firefox */
-  from {opacity: 0.8;}
+  from {opacity: var(--opacity);}
   to {opacity: 1;}
 }
 
 @-webkit-keyframes fadein { /* Safari and Chrome */
-  from {opacity: 0.8;}
+  from {opacity: var(--opacity);}
   to {opacity: 1;}
 }
 
 @-o-keyframes fadein { /* Opera */
-  from {opacity: 0.8;}
+  from {opacity: var(--opacity);}
   to {opacity: 1;}
 }
