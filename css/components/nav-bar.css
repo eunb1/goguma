@@ -1,5 +1,6 @@
 .nav-bar {
     display: flex;
+    overflow: hidden;
     justify-content: space-between;
     align-items: center;
     height: 7.0281vh;
@@ -47,4 +48,10 @@
 
 .nav-bar__icons i {
     display: none;
+}
+
+@media screen and (max-width: 620px) {
+    .nav-bar__title {
+        display: none;
+    }
 }
