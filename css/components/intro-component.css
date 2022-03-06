@@ -50,10 +50,6 @@
     height: 33.4%;
 }
 
-.side-bar--responsive__menu li:nth-child(2) {
-    width: 33.4%;
-}
-
 .side-bar__menu .clicked,
 .side-bar--responsive__menu .clicked {
     color: var(--white);
