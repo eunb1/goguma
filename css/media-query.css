@@ -5,6 +5,10 @@
 }
 
 @media screen and (max-width: 600px) {
+    .nav-bar {
+        height: 8vh;
+    }
+    
     .shop-info-header {
         height: 7vh;
     }
