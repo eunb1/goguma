@@ -3,7 +3,7 @@
     align-items: center;
     height: 6.1245vh;
     font-weight: 800;
-    font-size: 1.8072vh;
+    font-size: 1.8rem;
     padding-left: 27.5%;
 }
 
@@ -25,7 +25,7 @@
 
 .book-intro__title {
     font-weight: 800;
-    font-size: 1.8072vh;
+    font-size: 1.8rem;
     margin-bottom: 3.012vh;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .book-intro__content {
-    font-size: 1.4056vh;
+    font-size: 1.4rem;
     line-height: 150%;
 }
 
@@ -68,15 +68,4 @@
 
 .nh-cup {
     width: 30vw;
-}
-
-@media screen and (max-width: 620px) {
-    .tumblbug-header {
-        height: 9vh;
-    }
-
-    .tumblbug-header span {
-        display: block;
-        margin-top: 0.8vh;
-    }
 }

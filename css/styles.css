@@ -14,6 +14,9 @@
 @import "screens/interview-screen.css";
 @import "screens/shop-screen.css";
 
+/* media query */
+@import "media-query.css";
+
 :root {
   --purple: #9777AA;
   --gray: #3C3C3C;
@@ -22,6 +25,15 @@
   --border: 2px solid var(--purple);
   --sec: 1000ms;
   --opacity: 0;
+}
+
+html {
+  /* 10px  */
+  font-size: 62.5%;
+}
+
+* {
+  word-break: keep-all;
 }
 
 body {
@@ -57,4 +69,16 @@ body {
 @-o-keyframes fadein { /* Opera */
   from {opacity: var(--opacity);}
   to {opacity: 1;}
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --border: 1px solid var(--purple);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 50%;
+  }
 }

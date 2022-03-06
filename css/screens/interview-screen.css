@@ -3,7 +3,7 @@
     align-items: center;
     height: 12.149vh;
     font-weight: 700;
-    font-size: 1.8072vh;
+    font-size: 1.8rem;
     padding-left: 7vw;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .interview-text {
-    font-size: 1.6064vh;
+    font-size: 1.6rem;
     line-height: 162%;
     margin-top: 5vh;
     margin-bottom: 12.0482vh;
@@ -43,14 +43,4 @@
     background-image: url("/images/stars.png");
     background-size: 100%;
     background-repeat: round;
-}
-
-@media screen and (max-width: 620px) {
-    .interview-section-wrapper {
-        width: 78vw;
-    }
-
-    .interview-text {
-        line-height: 200%;
-    }
 }

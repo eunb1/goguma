@@ -1,7 +1,6 @@
-/* PC용 CSS */
 .team-screen {
     display: flex;
-    border-bottom: 2px solid var(--purple);
+    border-bottom: var(--border);
     height: 65vh;
 }
 
@@ -19,19 +18,19 @@
 
 .team-description__title {
     font-weight: 800;
-    font-size: 2.2222vw;
+    font-size: 3.2rem;
     margin-bottom: 2.008vh;
 }
 
 .team-description__subtitle {
     font-weight: 800;
-    font-size: 1.25vw;
+    font-size: 1.8rem;
     margin-bottom: 4.0161vh;
 }
 
 .team-description__text {
     font-weight: 400;
-    font-size: 0.9722vw;
+    font-size: 1.4rem;
     line-height: 186%;
     color: black;
     margin-bottom: 4.0161vh;
@@ -40,10 +39,10 @@
 .team-description__btn {
     border: none;
     cursor: pointer;
-    width: 24.3750vw;
-    height: 5.5221vh;
+    width: 35.1rem;
+    height: 5.5rem;
     font-weight: 800;
-    font-size: 1.25vw;
+    font-size: 1.8rem;
     color: var(--white);
     background-color: var(--purple);
     border-radius: 4px;
@@ -72,7 +71,7 @@ margin-left: 5.5556vw;
 }
 
 .footer span {
-    font-size: 1.1111vw;
+    font-size: 1.6rem;
     color: black;
 }
 
@@ -88,49 +87,4 @@ font-weight: 600;
 
 .footer {
     height: 10vh;
-}
-
-/* 모바일용 CSS */
-@media screen and (max-width: 620px) {
-    .team-screen {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 12vh;
-        height: 100vh;
-    }
-
-    .team-description {
-        width: 90%;
-        text-align: center;
-        margin: 0;
-    }
-
-    .team-description__title {
-        font-size: 6vw;
-    }
-
-    .team-description__subtitle {
-        font-size: 3.3vw;
-    }
-    
-    .team-description__text {
-        font-size: 2.5vw;
-        line-height: 200%;
-    }
-    
-    .team-description__btn {
-        width: 50vw;
-        height: 10vw;
-        font-size: 2.8vw;
-    }
-
-    .team-image {
-        width: 100%;
-        margin-top: 4.0161vh;
-    }
-
-    .footer span {
-        font-size: 2.3vw;
-    }
 }

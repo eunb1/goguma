@@ -1,0 +1,146 @@
+@media screen and (max-width: 620px) {
+    .display-message {
+        height: 9vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .shop-info-header {
+        height: 7vh;
+    }
+
+    .shop-info-header__text {
+        width: 80%;
+        line-height: 115%;
+    }
+
+    .intro-description {
+        width: 100%;
+    }
+
+    .intro-description-wrapper {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+
+    .intro-description__title span {
+        display: block;
+        margin-top: 1vh;
+    }
+
+    .intro-description__text {
+        height: 100%;
+    }
+
+    .empty-header,
+    .side-bar {
+        display: none;
+    }
+
+    .side-bar--responsive {
+        display: block;
+    }
+
+    .shop-side-bar {
+        display: none;
+    }
+
+    .main-section {
+        border-left: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-bar__title {
+        display: none;
+    }
+
+    .nav-bar__menu {
+        padding-left: 10vw;
+        width: 100%;
+    }
+
+    .nav-bar__menu li {
+        font-size: 2.2rem;
+    }
+
+    .nav-bar__icon {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .nav-bar__menu {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .interview-header {
+        height: 10vh;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .interview-section-wrapper {
+        width: 77vw;
+    }
+
+    .interview-text {
+        line-height: 200%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tumblbug-header {
+        height: 9vh;
+    }
+
+    .tumblbug-header span {
+        display: block;
+        margin-top: 0.8vh;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .book-intro__content {
+        width: 50%;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+
+    .book-intro__content:first-child,
+    .book-intro__content:nth-child(2) {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .team-screen {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 12vh;
+        height: 100vh;
+    }
+
+    .team-description {
+        width: 90%;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .team-description__text {
+        line-height: 200%;
+    }
+    
+    .team-description__btn {
+        width: 30rem;
+        height: 5.5rem;
+    }
+
+    .team-image {
+        width: 100%;
+        margin-top: 4.0161vh;
+    }
+}

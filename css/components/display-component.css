@@ -21,8 +21,7 @@
     width: 100%;
     height: 12.149vh;
     font-weight: 800;
-    font-size: 1.8072vh;
-    /* font-size: 1.25vw; */
+    font-size: 1.8rem;
     border-top: var(--border);
     border-bottom: var(--border);
 }
@@ -38,17 +37,7 @@
 }
 
 .side-bar li:hover,
-.shop-side-bar li:hover {
+.shop-side-bar li:hover,
+.side-bar--responsive:hover {
     cursor: pointer;
-}
-
-.nav-bar li a {
-    padding: 20px;
-}
-
-@media screen and (max-width: 620px) {
-    
-    .display-message {
-        height: 9vh;
-    }
 }

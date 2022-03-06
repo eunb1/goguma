@@ -1,5 +1,4 @@
 .market-poster {
-    /* height: 61.747vh; */
     width: 42.7083vw;
 }
 
@@ -7,8 +6,7 @@
     width: 100%;
     padding: 20px 0;
     font-weight: 400;
-    font-size: 1.4056vh;
-    /* font-size: 0.9722vw; */
+    font-size: 1.4rem;
     line-height: 171%;
     border-top: var(--border);
     padding-left: 35vw;
