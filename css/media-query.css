@@ -32,10 +32,6 @@
         margin-top: 1vh;
     }
 
-    .intro-description__text {
-        height: 100%;
-    }
-
     .empty-header,
     .side-bar {
         display: none;
@@ -88,10 +84,6 @@
 @media screen and (max-width: 1024px) {
     .interview-section-wrapper {
         width: 77vw;
-    }
-
-    .interview-text {
-        line-height: 200%;
     }
 }
 
@@ -146,5 +138,11 @@
     .team-image {
         width: 100%;
         margin-top: 4.0161vh;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .intro-description__text {
+        height: 100%;
     }
 }

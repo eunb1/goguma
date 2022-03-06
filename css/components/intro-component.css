@@ -47,6 +47,11 @@
 .side-bar__menu li:nth-child(2) {
     border-top: var(--border);
     border-bottom: var(--border);
+    height: 33.4%;
+}
+
+.side-bar--responsive__menu li:nth-child(2) {
+    width: 33.4%;
 }
 
 .side-bar__menu .clicked,
