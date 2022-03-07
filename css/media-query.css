@@ -140,9 +140,3 @@
         margin-top: 4.0161vh;
     }
 }
-
-@media screen and (max-width: 1200px) {
-    .intro-description__text {
-        height: 100%;
-    }
-}
