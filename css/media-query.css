@@ -59,7 +59,7 @@
     .sticker-intro__title span {
         display: inline-block;
     }
-    
+
     .sticker-intro__description {
         line-height: 160%;
     }
@@ -227,6 +227,10 @@
         width: 90%;
         text-align: center;
         margin: 0;
+    }
+
+    .team-description__title {
+        margin-bottom: 2.5vh;
     }
     
     .team-description__text {
