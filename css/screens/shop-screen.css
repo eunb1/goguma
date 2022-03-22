@@ -66,6 +66,34 @@
     border-bottom: var(--border);
 }
 
+.shop-book-intro-wrapper {
+    margin: 7.2289vh 7.5vw;
+}
+
+.book-intro__title {
+    font-weight: 800;
+    font-size: 3.2rem;
+    margin-bottom: 3.3133vh;
+}
+
+.sticker-intro__header {
+    box-sizing: border-box;
+    width: 100%;
+    height: 24.3976vh;
+    padding: 7.2289vh 7.5vw;
+    border-bottom: var(--border);
+}
+
+.sticker-intro__title {
+    font-weight: 800;
+    font-size: 3.2rem;
+    margin-bottom: 2.5vh;
+}
+
+.sticker-intro__description {
+    font-size: 1.8rem;
+}
+
 .shop-width {
     width: 100%;
 }

@@ -4,7 +4,7 @@
     height: 6.1245vh;
     font-weight: 800;
     font-size: 1.8rem;
-    padding-left: 27.5%;
+    padding-left: 29vw;
 }
 
 .tumblbug-header a {
@@ -20,10 +20,11 @@
 }
 
 .book-intro-wrapper {
-    margin: 5.7229vh 7.5vw;
+    margin: 7.2289vh 7.5vw;
+    /* margin: 5.7229vh 7.5vw; */
 }
 
-.book-intro__title {
+.book-intro__subtitle {
     font-weight: 800;
     font-size: 1.8rem;
     margin-bottom: 3.012vh;

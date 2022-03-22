@@ -10,12 +10,52 @@
     }
     
     .shop-info-header {
-        height: 7vh;
+        padding-left: 15vw;
+        height: 8vh;
     }
 
     .shop-info-header__text {
-        width: 80%;
-        line-height: 115%;
+        line-height: 130%;
+    }
+
+    .book-intro--border {
+        display: flex;
+        justify-content: center;
+    }
+
+    .book-intro__title {
+        line-height: 130%;
+    }
+
+    .book-intro__title span {
+        display: inline-block;
+    }
+
+    .shop-book-intro-wrapper {
+        width: 70%;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .sticker-intro__header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        height: auto;
+    }
+
+    .sticker-intro-wrapper {
+        width: 70%;
+        padding: 5vh 0;
+    }
+
+    .sticker-intro__title {
+        line-height: 130%;
+    }
+
+    .sticker-intro__description {
+        line-height: 160%;
     }
 
     .intro-description {
@@ -27,9 +67,30 @@
         padding-bottom: 5vh;
     }
 
+    .intro-description__title {
+        line-height: 130%;
+    }
+
     .intro-description__title span {
-        display: block;
-        margin-top: 1vh;
+        display: inline-block;
+    }
+
+    .interview-header {
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .interview-header span {
+        width: 70%;
+    }
+
+    .interview-text h2 {
+        font-size: 3rem;
+    }
+
+    .interview-text span {
+        display: inline-block;
     }
 
     .empty-header,
@@ -75,26 +136,61 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .interview-header {
         height: 10vh;
     }
-}
+} */
 
 @media screen and (max-width: 1024px) {
     .interview-section-wrapper {
-        width: 77vw;
+        width: 75vw;
     }
 }
 
 @media screen and (max-width: 600px) {
     .tumblbug-header {
         height: 9vh;
+        line-height: 130%;
+        padding-left: 15vw;
+    }
+
+    .header-wrapper {
+        width: 70%;
     }
 
     .tumblbug-header span {
-        display: block;
-        margin-top: 0.8vh;
+        display: inline-block;
+    }
+
+    .market-poster {
+        width: 70%;
+    }
+
+    .intro-description-wrapper {
+        padding-right: 0;
+    }
+
+    .text-container {
+        padding-left: 30vw;
+    }
+
+    .shop-display {
+        padding-left: 15vw;
+    }
+
+    .book-intro {
+        display: flex;
+        justify-content: center;
+    }
+
+    .book-intro-wrapper {
+        width: 70%;
+        margin-bottom: 15vh;
+    }
+
+    .nh-cup {
+        width: 45%;
     }
 }
 
