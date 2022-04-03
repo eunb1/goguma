@@ -98,19 +98,19 @@
     width: 100%;
 }
 
-.gray-section {
-    background-color: #E3E1DF;
-    margin-bottom: 20px;
+.book-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-gif {
+    width: 85%;
+    margin-bottom: 3vh;
 }
 
 .book-group {
-    width: 63.1944vw;
-    margin-left: 14.1667vw;
-}
-
-.book-grass {
-    width: 50.2083vw;
-    margin-left: 27.1528vw;
+    width: 85%;
 }
 
 .shop-display {
@@ -118,6 +118,5 @@
 }
 
 .book-postcards {
-    width: 75.9722vw;
-    margin-left: 1.3889vw;
+    margin-right: 7.5%;
 }
